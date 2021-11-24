@@ -6,6 +6,10 @@ public class ObstacleSpawner : MonoBehaviour
 {
 
     [SerializeField] private List<GameObject> obstaclesStageOne = new List<GameObject>();
+
+    [SerializeField] private float stageOneOffY;
+    [SerializeField] private float stageTwoStartY;
+
     [SerializeField] private List<GameObject> obstaclesStageTwo = new List<GameObject>();
 
     [SerializeField] private float min;

@@ -11,14 +11,21 @@ public class GameManager : MonoBehaviour
     private bool gameEnded = false;
 
     [SerializeField] private Rocket rocket;
-    [SerializeField] private Drop[] thingsToDrop;
+    [SerializeField] private Drop[] dropOnLaunch;
+
+    [SerializeField] private GameObject[] activateOnLaunch;
 
     public void Launch()
     {
         rocket.enabled = true;
-        for (int i = 0; i < thingsToDrop.Length; i++)
+        for (int i = 0; i < dropOnLaunch.Length; i++)
         {
-            thingsToDrop[i].enabled = true;
+            dropOnLaunch[i].enabled = true;
+        }
+
+        for (int j = 0; j < activateOnLaunch.Length; j++)
+        {
+            activateOnLaunch[j].SetActive(true);
         }
     }
 

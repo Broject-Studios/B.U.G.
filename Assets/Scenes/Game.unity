@@ -155,6 +155,8 @@ MonoBehaviour:
   obstaclesStageOne:
   - {fileID: 7963584431224430839, guid: a560d0ff84fd76544bd05c82f3b36fda, type: 3}
   - {fileID: 8676952743989449349, guid: 128e00a5e1ede5549becbf6ee93e7a1a, type: 3}
+  stageOneOffY: 0
+  stageTwoStartY: 0
   obstaclesStageTwo: []
   min: -7
   max: 8
@@ -249,7 +251,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: ace0ba747c2a3964692a94f1a6c65176, type: 3}
     m_FontSize: 38
     m_FontStyle: 0
     m_BestFit: 0
@@ -289,7 +291,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &89667580
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1208,13 +1210,14 @@ GameObject:
   - component: {fileID: 680020314}
   - component: {fileID: 680020313}
   - component: {fileID: 680020315}
+  - component: {fileID: 680020316}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &680020312
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1231,8 +1234,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 320.78}
-  m_SizeDelta: {x: 423.99, y: 423.99}
+  m_AnchoredPosition: {x: 0, y: 275}
+  m_SizeDelta: {x: 434.06, y: 434.06}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &680020313
 MonoBehaviour:
@@ -1287,6 +1290,25 @@ MonoBehaviour:
   scalingMultiplier: 5
   scaleY: 1
   scaleX: 1
+--- !u!95 &680020316
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 680020311}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7764f31d7ac265944834cc615b6f6e47, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &683494255
 GameObject:
   m_ObjectHideFlags: 0

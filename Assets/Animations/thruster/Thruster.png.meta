@@ -1,0 +1,336 @@
+fileFormatVersion: 2
+guid: 7815a310e37bddc4e91a10382839586e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5509027734136965146
+    second: thruster_01_0010001
+  - first:
+      213: 8770599885990420356
+    second: thruster_01_0010002
+  - first:
+      213: 2244955554733465779
+    second: thruster_01_0010003
+  - first:
+      213: 2199428395927836419
+    second: thruster_01_0010004
+  - first:
+      213: 9192794783057385899
+    second: thruster_01_0010005
+  - first:
+      213: -9075037998449387236
+    second: thruster_01_0010006
+  - first:
+      213: -4252758435043038511
+    second: thruster_01_0010007
+  - first:
+      213: 3711793207150252549
+    second: thruster_01_0010008
+  - first:
+      213: 8793423942432373921
+    second: thruster_01_0010009
+  - first:
+      213: 5514589322667703976
+    second: thruster_01_0010010
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: thruster_01_0010001
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 760
+        width: 139
+        height: 263
+      alignment: 9
+      pivot: {x: -0.40647483, y: 1.0969582}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a18420f398ff37c40800000000000000
+      internalID: 5509027734136965146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thruster_01_0010002
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 494
+        width: 161
+        height: 264
+      alignment: 9
+      pivot: {x: -0.3136646, y: 1.0890151}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f5a8fa02e67b970800000000000000
+      internalID: 8770599885990420356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thruster_01_0010003
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 759
+        width: 115
+        height: 264
+      alignment: 9
+      pivot: {x: -0.65652174, y: 1.0359849}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b0ad68ce2fa72f10800000000000000
+      internalID: 2244955554733465779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thruster_01_0010004
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 482
+        width: 134
+        height: 275
+      alignment: 9
+      pivot: {x: -0.4067164, y: 1.0854546}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3079f281970f58e10800000000000000
+      internalID: 2199428395927836419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thruster_01_0010005
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 183
+        width: 140
+        height: 297
+      alignment: 9
+      pivot: {x: -0.45357144, y: 1.0622896}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba91331562e539f70800000000000000
+      internalID: 9192794783057385899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thruster_01_0010006
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 216
+        width: 143
+        height: 276
+      alignment: 9
+      pivot: {x: -0.43706295, y: 1.0851449}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c199043a50dfe0280800000000000000
+      internalID: -9075037998449387236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thruster_01_0010007
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 763
+        width: 126
+        height: 260
+      alignment: 9
+      pivot: {x: -0.53571427, y: 1.1173077}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1daa6b34cba2bf4c0800000000000000
+      internalID: -4252758435043038511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thruster_01_0010008
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 760
+        width: 123
+        height: 263
+      alignment: 9
+      pivot: {x: -0.6544715, y: 1.1159695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50216e78140f28330800000000000000
+      internalID: 3711793207150252549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thruster_01_0010009
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 195
+        width: 122
+        height: 292
+      alignment: 9
+      pivot: {x: -0.5778689, y: 1.0804795}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1acb8107c74880a70800000000000000
+      internalID: 8793423942432373921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thruster_01_0010010
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 489
+        width: 145
+        height: 269
+      alignment: 9
+      pivot: {x: -0.45172414, y: 1.1505576}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae35cb75c1c78c40800000000000000
+      internalID: 5514589322667703976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 141b95420d0444246a92f5ba4342fc24
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

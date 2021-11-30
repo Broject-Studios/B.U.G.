@@ -4,18 +4,9 @@ tpsheetFileNames:
 - Assets/Animations/crowd/Crowd_01_001.tpsheet
 - Assets/Animations/Explosion/Explosion_01_001.tpsheet
 - Assets/Animations/Helicrapter/ship_waves_02.tpsheet
-- Assets/Art/Explosion/New Folder/Explosion_01_001.tpsheet
-- Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/Animations/thruster/Thruster.tpsheet
 textureFileNames:
-- Assets/Animations/crowd/Crowd_01_001.png
-- Assets/Animations/Explosion/Explosion_01_001.png
-- Assets/Animations/Helicrapter/ship_waves_02.png
-- Assets/Art/Explosion/New Folder/Explosion_01_001.png
-- Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/Animations/thruster/Thruster.png
 normalmapFileNames:
 - 
-- 
-- 
-- 
-- Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
 enableDebugOutput: 0

@@ -13,7 +13,7 @@ public class Explosion : MonoBehaviour
     {
         if(explosionAudio)
         {
-            AudioSource.PlayClipAtPoint(explosionAudio, this.transform.position);
+            Play2DClipAtPoint(explosionAudio);
         }
     }
 
@@ -26,4 +26,29 @@ public class Explosion : MonoBehaviour
         }
     }
 
+
+    public void Play2DClipAtPoint(AudioClip clip)
+    {
+        //  Create a temporary audio source object
+        GameObject tempAudioSource = new GameObject("TempAudio");
+
+        //  Add an audio source
+        AudioSource audioSource = tempAudioSource.AddComponent<AudioSource>();
+
+        //  Add the clip to the audio source
+        audioSource.clip = clip;
+
+        //  Set the volume
+        audioSource.volume = 1;
+
+        //  Set properties so it's 2D sound
+        audioSource.spatialBlend = 0.0f;
+
+        //  Play the audio
+        audioSource.Play();
+
+        //  Set it to self destroy
+        Destroy(tempAudioSource, clip.length);
+
+    }
 }

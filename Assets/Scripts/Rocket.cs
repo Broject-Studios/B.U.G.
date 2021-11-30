@@ -20,6 +20,10 @@ public class Rocket : MonoBehaviour
 
     public int rocketHealth;
 
+    [SerializeField] private GameObject[] deadguyObjects;
+
+    [SerializeField] private GameObject thruster;
+
     private void Awake()
     {
         spriteRenderer = this.gameObject.GetComponent<SpriteRenderer>();
@@ -84,16 +88,24 @@ public class Rocket : MonoBehaviour
             if (rocketHealth <= 0)
             {
                 manager.GameOver();
+                KillRocket();
             }
 
         }
     }
 
-
-
     private void KillRocket ()
     {
+        for (int i = 0; i < deadguyObjects.Length; i++)
+        {
+            deadguyObjects[i].SetActive(true);
+        }
 
+        thruster.SetActive(false);
+        this.gameObject.GetComponent<Collider2D>().enabled = false;
+        this.gameObject.GetComponent<SpriteRenderer>().enabled = false;
+
+        this.enabled = false;
     }
 
 }

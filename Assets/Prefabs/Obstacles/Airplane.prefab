@@ -125,7 +125,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyOnHit: 1
-  hitSoundObject: {fileID: 0}
   hitSound: {fileID: 8300000, guid: aee4ff92d2463854a8a9b88e2617bdf0, type: 3}
   onDestroyObject: {fileID: 2143735375141894664, guid: 305d90552a0c77948a3ca00ae8573564, type: 3}
   particles:
@@ -146,7 +145,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -167,7 +166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 955da68600e728743936c8879ade6de1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destroyBelowX: 1
+  destroyBelowX: 0
   destroyBelowY: 1
   boundaryX: 0
-  boundaryY: -20
+  boundaryY: -30

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7602897907781859266}
   - component: {fileID: 1813043709}
   - component: {fileID: -2926449753159441534}
+  - component: {fileID: 7286333650084521648}
   m_Layer: 0
   m_Name: SpaceRock_1
   m_TagString: Obstacle
@@ -98,8 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyOnHit: 1
-  hitSoundObject: {fileID: 0}
-  hitSound: {fileID: 0}
+  hitSound: {fileID: 8300000, guid: 38a4886f08cb0124a8373cd9365cfc6f, type: 3}
   onDestroyObject: {fileID: 2143735375141894664, guid: 305d90552a0c77948a3ca00ae8573564, type: 3}
   particles:
   - {fileID: 4350611801121386573, guid: e100255864af8354a85140e9e1457f98, type: 3}
@@ -270,3 +270,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &7286333650084521648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6091662219722373682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 955da68600e728743936c8879ade6de1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyBelowX: 0
+  destroyBelowY: 1
+  boundaryX: 0
+  boundaryY: -30

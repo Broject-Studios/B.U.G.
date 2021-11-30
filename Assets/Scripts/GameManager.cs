@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -19,6 +20,11 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private GameObject gameWinUI;
 
+    [SerializeField] private GameObject gameOverUI;
+
+    [SerializeField] private GameObject pauzeGeneral;
+
+    private bool restStage = false;
 
     public void Launch()
     {
@@ -36,6 +42,12 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
+        if (background.transform.position.y < -65 && restStage == false)
+        {
+            restStage = true;
+            pauzeGeneral.SetActive(true);
+        }
+
         if (background.transform.position.y <= endPosition && !gameEnded)
         {
             gameEnded = true;
@@ -58,6 +70,24 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
+        for (int i = 0; i < dropOnLaunch.Length; i++)
+        {
+            if(dropOnLaunch[i])
+            {
+                dropOnLaunch[i].enabled = false;
+            }
+        }
 
+        for (int j = 0; j < activateOnLaunch.Length; j++)
+        {
+            activateOnLaunch[j].SetActive(false);
+        }
+
+        gameOverUI.SetActive(true);
+    }
+
+    public void Restart()
+    {
+        SceneManager.LoadScene("Game");
     }
 }

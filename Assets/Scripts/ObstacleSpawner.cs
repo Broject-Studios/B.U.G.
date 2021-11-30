@@ -48,7 +48,7 @@ public class ObstacleSpawner : MonoBehaviour
     {
         while(true)
         {
-            GameObject.Instantiate(obstaclesStageOne[Random.Range(0, obstaclesStageOne.Count)], new Vector3(Random.Range(min, max), transform.position.y, 0), Quaternion.identity);
+            Instantiate(obstaclesStageOne[Random.Range(0, obstaclesStageOne.Count)], new Vector3(Random.Range(min, max), transform.position.y, 0), Quaternion.identity);
 
             yield return new WaitForSeconds(spawnDelay);
         }
@@ -58,7 +58,7 @@ public class ObstacleSpawner : MonoBehaviour
     {
         while(true)
         {
-            GameObject.Instantiate(obstaclesStageTwo[Random.Range(0, obstaclesStageTwo.Count)], new Vector3(Random.Range(min, max), transform.position.y, 0), Quaternion.identity);
+            Instantiate(obstaclesStageTwo[Random.Range(0, obstaclesStageTwo.Count)], new Vector3(Random.Range(min, max), transform.position.y, 0), Quaternion.identity);
 
             yield return new WaitForSeconds(spawnDelay);
         }

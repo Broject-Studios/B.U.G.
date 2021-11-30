@@ -49,6 +49,7 @@ MonoBehaviour:
   maxForceX: 30
   minForceY: -10
   maxForceY: -25
+  explosionAudio: {fileID: 0}
 --- !u!114 &2033328952
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -5,17 +5,23 @@ using UnityEngine;
 public class UIManager : MonoBehaviour
 {
 
-    [SerializeField] private GameObject general;
+    [SerializeField] private GameObject[] enableOnDialogFinished;
+    [SerializeField] private GameObject[] disableOnDialogFinished;
 
-    [SerializeField] private GameObject title;
-
-    [SerializeField] private GameObject launchButton;
 
     public void DialogFinished()
     {
-        general.SetActive(false);
-        title.SetActive(true);
-        launchButton.SetActive(true);
+        for (int i = 0; i < enableOnDialogFinished.Length; i++)
+        {
+            enableOnDialogFinished[i].SetActive(true);
+        }
+
+        for (int i = 0; i < disableOnDialogFinished.Length; i++)
+        {
+            disableOnDialogFinished[i].SetActive(false);
+        }
     }
+
+
 
 }

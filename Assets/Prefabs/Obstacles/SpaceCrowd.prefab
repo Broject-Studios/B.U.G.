@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1135975144718365581}
   - component: {fileID: 1761541839}
   - component: {fileID: -5754791319493406188}
+  - component: {fileID: -4705687390429130938}
   m_Layer: 0
   m_Name: SpaceCrowd
   m_TagString: Obstacle
@@ -98,9 +99,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroyOnHit: 1
-  hitSoundObject: {fileID: 0}
-  hitSound: {fileID: 0}
+  hitSound: {fileID: 8300000, guid: 7db8ad79baa4aac44b9bba03fbd119c6, type: 3}
   onDestroyObject: {fileID: 2143735375141894664, guid: 305d90552a0c77948a3ca00ae8573564, type: 3}
+  particles:
+  - {fileID: 8582743760529648479, guid: 6427c2b084e48234788fd2b698c9bae0, type: 3}
+  - {fileID: 8378333020144898948, guid: 0296fba8f0d00174daa45bdd7f1e2f43, type: 3}
+  - {fileID: 4096982782792234496, guid: f8dd60f44cf308347b0796fa5a5415b4, type: 3}
+  - {fileID: 1242524488929303638, guid: 30fcc5b8fa966e64c814323ab9f35459, type: 3}
+  - {fileID: 3949778163967457200, guid: b8c49a4176f72ed4cb28a66f55b0b1bb, type: 3}
+  - {fileID: 1791877448899010197, guid: c8da30b305a3ab14c832a60a502bad39, type: 3}
 --- !u!61 &1761541839
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -148,3 +155,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-4705687390429130938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4092672548376852531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 955da68600e728743936c8879ade6de1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyBelowX: 0
+  destroyBelowY: 1
+  boundaryX: 0
+  boundaryY: -30

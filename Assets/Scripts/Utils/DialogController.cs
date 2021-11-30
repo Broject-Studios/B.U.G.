@@ -10,6 +10,9 @@ public class DialogController : MonoBehaviour
 
     [SerializeField] private List<string> lines = new List<string>();
 
+
+    [SerializeField] private List<AudioClip> linesAudio = new List<AudioClip>();
+
     private int currentLine;
 
     [SerializeField] private UIManager manager;
@@ -21,7 +24,22 @@ public class DialogController : MonoBehaviour
 
         typeWriter.OnMessageFinished = NextLine;
 
-        typeWriter.TypeText(lines[currentLine]);
+        if (linesAudio[currentLine])
+        {
+            typeWriter.TypeText(lines[currentLine], linesAudio[currentLine]);
+        }
+        else
+        {
+            typeWriter.TypeText(lines[currentLine]);
+        }
+
+        if (currentLine >= lines.Count - 1)
+        {
+            if (manager)
+            {
+                typeWriter.OnMessageFinished = manager.DialogFinished;
+            }
+        }
     }
 
     private void NextLine()
@@ -30,11 +48,20 @@ public class DialogController : MonoBehaviour
 
         typeWriter.ResetTextbox();
 
-        typeWriter.TypeText(lines[currentLine]);
+        if(linesAudio[currentLine])
+        {
+            typeWriter.TypeText(lines[currentLine], linesAudio[currentLine]);
+        } else
+        {
+            typeWriter.TypeText(lines[currentLine]);
+        }
 
         if (currentLine >= lines.Count - 1)
         {
-            typeWriter.OnMessageFinished = manager.DialogFinished;
+            if (manager)
+            {
+                typeWriter.OnMessageFinished = manager.DialogFinished;
+            }
         }
     }
 

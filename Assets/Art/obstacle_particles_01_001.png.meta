@@ -1,0 +1,852 @@
+fileFormatVersion: 2
+guid: 49963ae9e78a0cd4ba9dbf73f80ce9dc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5744377454715534013
+    second: obstacle_particles_01_001_0
+  - first:
+      213: -4544937926864796731
+    second: obstacle_particles_01_001_1
+  - first:
+      213: -1955221134025292812
+    second: obstacle_particles_01_001_2
+  - first:
+      213: -55073155439094331
+    second: obstacle_particles_01_001_3
+  - first:
+      213: 4489791970520010380
+    second: obstacle_particles_01_001_4
+  - first:
+      213: -918105568070605901
+    second: obstacle_particles_01_001_5
+  - first:
+      213: 4636550074692117723
+    second: obstacle_particles_01_001_6
+  - first:
+      213: 3121505408956380874
+    second: obstacle_particles_01_001_7
+  - first:
+      213: -3165375051234755862
+    second: obstacle_particles_01_001_8
+  - first:
+      213: -1244235732670474179
+    second: obstacle_particles_01_001_9
+  - first:
+      213: -2130608208924726875
+    second: obstacle_particles_01_001_10
+  - first:
+      213: -8467958363586010765
+    second: obstacle_particles_01_001_11
+  - first:
+      213: 6665486849900676526
+    second: obstacle_particles_01_001_12
+  - first:
+      213: 5407447140157492262
+    second: obstacle_particles_01_001_13
+  - first:
+      213: 8907095548977031995
+    second: obstacle_particles_01_001_14
+  - first:
+      213: 832808942704438884
+    second: obstacle_particles_01_001_15
+  - first:
+      213: -591518673838194862
+    second: obstacle_particles_01_001_16
+  - first:
+      213: -921242205602559251
+    second: obstacle_particles_01_001_17
+  - first:
+      213: -6344845013163909053
+    second: obstacle_particles_01_001_18
+  - first:
+      213: 1654600775486742442
+    second: obstacle_particles_01_001_19
+  - first:
+      213: 1285345997323408620
+    second: obstacle_particles_01_001_20
+  - first:
+      213: -2357017798173140148
+    second: obstacle_particles_01_001_21
+  - first:
+      213: -7316993284044227305
+    second: obstacle_particles_01_001_22
+  - first:
+      213: -5946421536526572271
+    second: obstacle_particles_01_001_23
+  - first:
+      213: -2581512081073294306
+    second: obstacle_particles_01_001_24
+  - first:
+      213: -4626980740882958820
+    second: obstacle_particles_01_001_25
+  - first:
+      213: -623751764558235821
+    second: obstacle_particles_01_001_26
+  - first:
+      213: -5969853737590364395
+    second: obstacle_particles_01_001_27
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: obstacle_particles_01_001_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1792
+        width: 204.8
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3450be3d32fd740b0800000000000000
+      internalID: -5744377454715534013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_particles_01_001_1
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1792
+        width: 204.8
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3060f19032de0c0800000000000000
+      internalID: -4544937926864796731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_particles_01_001_2
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1792
+        width: 204.8
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f30611ecb8add4e0800000000000000
+      internalID: -1955221134025292812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_particles_01_001_3
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1792
+        width: 204.8
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c59465c1475c3ff0800000000000000
+      internalID: -55073155439094331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_particles_01_001_4
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1792
+        width: 204.8
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e0f3e5202fe4e30800000000000000
+      internalID: 4489791970520010380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_particles_01_001_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 204.8
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3e7d4a9db3243f0800000000000000
+      internalID: -918105568070605901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_particles_01_001_6
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1536
+        width: 204.8
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4a5593ab5585040800000000000000
+      internalID: 4636550074692117723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_particles_01_001_7
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1536
+        width: 204.8
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac63e4981a0d15b20800000000000000
+      internalID: 3121505408956380874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_particles_01_001_8
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1536
+        width: 204.8
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeab44a69245214d0800000000000000
+      internalID: -3165375051234755862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_particles_01_001_9
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1536
+        width: 204.8
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38145181369bbee0800000000000000
+      internalID: -1244235732670474179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_particles_01_001_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 204.8
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9a2875f1f8e62e0800000000000000
+      internalID: -2130608208924726875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_particles_01_001_11
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1280
+        width: 204.8
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37168a5cbb4cb7a80800000000000000
+      internalID: -8467958363586010765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_particles_01_001_12
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1280
+        width: 204.8
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea50e5789f0908c50800000000000000
+      internalID: 6665486849900676526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_particles_01_001_13
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1280
+        width: 204.8
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c0aca268c1b0b40800000000000000
+      internalID: 5407447140157492262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_particles_01_001_14
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1280
+        width: 204.8
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b2d31c53c5c9b70800000000000000
+      internalID: 8907095548977031995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_particles_01_001_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 204.8
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46eaaab225bbe8b00800000000000000
+      internalID: 832808942704438884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_particles_01_001_16
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1024
+        width: 204.8
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f3ddf66e08ac7f0800000000000000
+      internalID: -591518673838194862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_particles_01_001_17
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1024
+        width: 204.8
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea46fe48171733f0800000000000000
+      internalID: -921242205602559251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_particles_01_001_18
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1024
+        width: 204.8
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340e473b31592f7a0800000000000000
+      internalID: -6344845013163909053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_particles_01_001_19
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1024
+        width: 204.8
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf19fb83a256f610800000000000000
+      internalID: 1654600775486742442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_particles_01_001_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 204.8
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce49eefdf5776d110800000000000000
+      internalID: 1285345997323408620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_particles_01_001_21
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 768
+        width: 204.8
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4bdd92fcc03a4fd0800000000000000
+      internalID: -2357017798173140148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_particles_01_001_22
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 768
+        width: 204.8
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71dff901061d47a90800000000000000
+      internalID: -7316993284044227305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_particles_01_001_23
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 768
+        width: 204.8
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115e9963e111a7da0800000000000000
+      internalID: -5946421536526572271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_particles_01_001_24
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 768
+        width: 204.8
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e143f309070ac2cd0800000000000000
+      internalID: -2581512081073294306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_particles_01_001_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 204.8
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16f81de789a9cfb0800000000000000
+      internalID: -4626980740882958820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_particles_01_001_26
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 512
+        width: 204.8
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357bb7d231df757f0800000000000000
+      internalID: -623751764558235821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_particles_01_001_27
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 512
+        width: 204.8
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51763e1c7a1d62da0800000000000000
+      internalID: -5969853737590364395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

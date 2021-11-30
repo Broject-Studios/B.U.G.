@@ -15,6 +15,11 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private GameObject[] activateOnLaunch;
 
+    [SerializeField] private GameObject spawner;
+
+    [SerializeField] private GameObject gameWinUI;
+
+
     public void Launch()
     {
         rocket.enabled = true;
@@ -39,6 +44,19 @@ public class GameManager : MonoBehaviour
     }
 
     void EndGame()
+    {
+        background.GetComponent<Drop>().enabled = false;
+        moon.SetActive(true);
+        spawner.SetActive(false);
+    }
+
+    public void GameWin()
+    {
+        rocket.gameObject.SetActive(false);
+        gameWinUI.SetActive(true);
+    }
+
+    public void GameOver()
     {
 
     }

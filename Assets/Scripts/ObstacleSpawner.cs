@@ -19,6 +19,7 @@ public class ObstacleSpawner : MonoBehaviour
     [SerializeField] private float spawnDelay;
 
     private bool stageOne = false;
+    private bool stageTwo = false;
 
     private void OnEnable()
     {
@@ -29,8 +30,15 @@ public class ObstacleSpawner : MonoBehaviour
 
     private void Update()
     {
-        if (background.transform.position.y > stageOneOffY && stageOne)
+        if (background.transform.position.y < stageOneOffY && stageOne)
         {
+            stageOne = false;
+            StopCoroutine("DropObstaclesStageOne");
+        }
+
+        if (background.transform.position.y < stageTwoStartY && !stageTwo)
+        {
+            stageTwo = true;
             StartCoroutine("DropObstaclesStageTwo");
         }
     }

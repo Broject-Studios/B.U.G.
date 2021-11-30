@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Rocket : MonoBehaviour
 {
+    [SerializeField] private GameManager manager;
+
     [SerializeField] private float movementSmoothing;
 
     [SerializeField] private float rotationSpeed;
@@ -12,7 +14,7 @@ public class Rocket : MonoBehaviour
 
     [SerializeField] private Vector3 lookRotationOffset;
 
-    [SerializeField] private Sprite flightSprite;
+    [SerializeField] private List<Sprite> flightSprites = new List<Sprite>();
 
     private SpriteRenderer spriteRenderer;
 
@@ -25,8 +27,7 @@ public class Rocket : MonoBehaviour
 
     private void OnEnable()
     {
-        spriteRenderer.sprite = flightSprite;
-        print("helloooo");
+        spriteRenderer.sprite = flightSprites[0];
     }
 
     private void FixedUpdate()
@@ -38,9 +39,7 @@ public class Rocket : MonoBehaviour
 
         Vector3 desiredPosition = new Vector3(worldPoint.x, desiredPositionY, transform.position.z);
 
-
         Steer(desiredPosition);
-
     }
 
     private void Steer (Vector3 desiredPosition)
@@ -57,23 +56,40 @@ public class Rocket : MonoBehaviour
         transform.rotation = Quaternion.RotateTowards(transform.rotation, desiredRotation, rotationSpeed);
     }
 
-
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("hit something");
         if (collision.gameObject.tag == "Obstacle")
         {
-            rocketHealth--;
+            rocketHealth -= 5;
 
             collision.gameObject.GetComponent<Obstacle>().OnHit();
 
+            if(rocketHealth <= 20)
+            {
+                spriteRenderer.sprite = flightSprites[4];
+            }
+            else if(rocketHealth <= 40)
+            {
+                spriteRenderer.sprite = flightSprites[3];
+            }
+            else if (rocketHealth <= 60)
+            {
+                spriteRenderer.sprite = flightSprites[2];
+            }
+            else if (rocketHealth <= 80)
+            {
+                spriteRenderer.sprite = flightSprites[1];
+            }
+
             if (rocketHealth <= 0)
             {
-                KillRocket();
+                manager.GameOver();
             }
 
         }
     }
+
+
 
     private void KillRocket ()
     {
